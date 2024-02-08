@@ -1,0 +1,87 @@
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+  }
+  
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background-color: #000;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+  
+  .input-group:focus {
+    outline: 0 !important;
+    border-color: initial;
+    box-shadow: none;
+  }
+  
+  #barcode:focus {
+    outline: 0 !important;
+    /* border-color: initial; */
+    box-shadow: none;
+  }
+  .form-control:focus{
+    border-color:grey !important;
+  }
+  
+  .logobarcode {
+    background-image: url(../images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  
+  }
+  
+  table {
+    font-size: smaller;
+  }
+  
+  .full-height {
+    height: calc(100vh - 96px);
+  }
+  
+  .next {
+    left: 112em;
+    bottom: 7em;
+  
+  }
+  
+  .nextbtn {
+    padding: 16px;
+    border: none;
+    width: 100%;
+    background: #ffc107;
+    font-weight: 700;
+    color: white;
+  }
+  
+  .nextbtn:hover {
+    background: #ffb200;
+  }
+  .nopadding{
+    padding: 0 !important;
+  }
+  .bg-image{
+    background-image: url('../images/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
